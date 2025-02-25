@@ -1,0 +1,54 @@
+body {
+    background-image: url('churrasqueira.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: Arial Black, sans-serif;
+}
+
+h1 {
+    color: salmon;
+    font-size: 3rem;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#inputNome {
+    width: 100px;
+    height: 50px;
+    background-color: beige;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.button {
+    width: 200px;
+    height: 100px;
+    background-color: beige;
+    border-radius: 10%;
+    font-size: 1.2rem;
+    font-family: Arial Black, sans-serif;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#listaAmigos, #mensagem {
+    color: salmon;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+

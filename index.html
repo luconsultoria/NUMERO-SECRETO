@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio Resenha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quem pagará a Resenha do Final de Semana?</h1>
+    <div id="container">
+        <input type="text" id="inputNome" placeholder="Nome do Amigo">
+        <button class="button" onclick="adicionarNome()">ADICIONAR</button>
+        <p id="mensagem"></p>
+        <ul id="listaAmigos"></ul>
+        <div class="button-container">
+            <button class="button" onclick="limparUltimo()">LIMPAR</button>
+            <button class="button" onclick="reiniciarLista()">REINICIAR</button>
+            <button class="button" onclick="sortear()">SORTEAR</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
